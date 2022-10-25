@@ -1,0 +1,2 @@
+x = int(input())
+print('nol') if x==0 else print('satuan') if x>0 and x<10 else print('belasan') if x>=10 and x<20 else print('puluhan') if x>=20 and x<100 else print('Anda Menginput Melebihi Limit Bilangan')
